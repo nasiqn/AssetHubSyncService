@@ -35,6 +35,7 @@ docker compose up --build
 ```  
 ## 🧪 Notes  
 The project uses the Azure Service Bus Emulator for local development  
+AssertHubAPI - mocked inside the main application (localhost:9090)
 Ensure Docker has sufficient resources (CPU/Memory) allocated  
 
 If you make changes to the Service Bus configuration, restart containers:  
@@ -52,3 +53,4 @@ Subscription: assethub-sync
 Azure SQL Edge – backing store for emulator  
 Service Bus Emulator – local messaging  
 AssetHub Service – main application  
+AssertHubAPI - mocked inside the main application (localhost:9090)
