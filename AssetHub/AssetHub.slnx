@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="AssetHub.Service/AssetHub.Service.csproj" />
+  <Project Path="AssetHub.Shared/AssetHub.Shared.csproj" />
+  <Project Path="docker-compose.dcproj">
+    <Build />
+  </Project>
+</Solution>
