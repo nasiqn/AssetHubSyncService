@@ -35,7 +35,7 @@ docker compose up --build
 ```  
 ## 🧪 Notes  
 The project uses the Azure Service Bus Emulator for local development  
-AssertHubAPI - mocked inside the main application (localhost:9090)
+AssertHubAPI - mocked inside the main application (localhost:9090)  
 Ensure Docker has sufficient resources (CPU/Memory) allocated  
 
 If you make changes to the Service Bus configuration, restart containers:  
